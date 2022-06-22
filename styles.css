@@ -157,14 +157,19 @@ h1, h2, h3, h4, h5, h6 {
   padding: 3% 2%;
 }
 
-@media (max-width: 1284px) {
+@media (max-width: 1000px) {
 
   #title {
     text-align: center;
   }
+
   .title-image {
     position: static;
     transform: rotate(0);
+  }
+
+  .nav-link{
+    font-size: 2rem;
   }
 }
 
